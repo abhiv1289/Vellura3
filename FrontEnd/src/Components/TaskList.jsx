@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "../Styles/HomePage.css";
+import "../Styles/Homepage.css";
 
 const TaskList = () => {
   // State to store tasks, loading, error, new task data, and add-task status.
