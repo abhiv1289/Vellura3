@@ -13,7 +13,7 @@ import FriendsList from "../Views/FriendsList";
 import ArticleDetails from "../Views/ArticleDetails";
 import Chat from "../Views/Chat";
 import JournalPage from "../Views/JournalPage";
-import Aichat from "../Views/AIchat";
+import Aichat from "../Views/Aichat";
 import { UseAuthContext } from "../Context/AuthContext";
 import OtpVerification from "../Components/OtpVerification";
 
