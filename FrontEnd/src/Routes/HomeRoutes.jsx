@@ -23,6 +23,10 @@ function HomeRoutes() {
   return (
     <Routes>
       {/* Root routes */}
+      <Route
+        path="/"
+        element={auth ? <Navigate to="/app" /> : <LandingPage />}
+      />
 
       <Route
         path="/login"

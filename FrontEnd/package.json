@@ -28,6 +28,7 @@
     "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.1.11",
     "@types/three": "^0.172.0",
+    "@vitejs/plugin-react": "^5.0.0",
     "animated-backgrounds": "^1.1.0",
     "axios": "^1.7.9",
     "chart.js": "^4.4.7",
