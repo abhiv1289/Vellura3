@@ -53,7 +53,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 //handling the cors issue
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://vellura3-xnr1.vercel.app",
+];
 app.use(
   cors({
     origin: (origin, callback) => {

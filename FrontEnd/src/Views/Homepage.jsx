@@ -25,7 +25,7 @@ const Homepage = () => {
     const fetchMoodStatus = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/api/mood/check",
+          `${import.meta.env.VITE_API_URL}/api/mood/check`,
           {
             withCredentials: true,
           }
