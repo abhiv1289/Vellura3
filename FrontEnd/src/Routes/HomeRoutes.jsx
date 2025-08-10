@@ -8,7 +8,7 @@ import MainContainer from "../Views/MainContainer";
 import ArticlesPage from "../Views/ArticlesPage";
 import MeditationTimer from "../Views/MeditationTimer";
 import AllUsersList from "../Views/AllUsersList";
-import HomePage from "../Views/HomePage";
+import Homepage from "../Views/Homepage";
 import FriendsList from "../Views/FriendsList";
 import ArticleDetails from "../Views/ArticleDetails";
 import Chat from "../Views/Chat";
@@ -46,7 +46,7 @@ function HomeRoutes() {
         <Route index element={<Navigate to="home" />} />
 
         {/* Nested routes inside MainContainer */}
-        <Route path="home" element={<HomePage />} />
+        <Route path="home" element={<Homepage />} />
         <Route path="chat" element={<Chat />} />
         <Route path="allUsers" element={<AllUsersList />} />
         <Route path="friends" element={<FriendsList />} />
