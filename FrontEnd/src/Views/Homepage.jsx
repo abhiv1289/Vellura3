@@ -1,4 +1,4 @@
-import "../Styles/HomePage.css";
+import "../Styles/Homepage.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Quotes from "../../Data/quotes.json";
