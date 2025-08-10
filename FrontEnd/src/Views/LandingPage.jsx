@@ -2,8 +2,8 @@ import { ScrollControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { EffectComposer, Noise } from "@react-three/postprocessing";
 import { useMemo } from "react";
-import { Experience } from "../Components/Homepage/Experience";
-import { Overlay } from "../Components/Homepage/Overlay";
+import { Experience } from "../Components/Home/Experience";
+import { Overlay } from "../Components/Home/Overlay";
 import { usePlay } from "../Context/Play";
 import "../Styles/LandingPage.css";
 
